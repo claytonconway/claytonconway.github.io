@@ -34,6 +34,7 @@ li a:hover {
   font-size: 1vw;
 }
 .grid-item {
+    display: grid;
     background-color: aliceblue;
     padding: 10px;
     margin-left: 20px;
@@ -89,3 +90,8 @@ li a:hover {
     margin:auto;
     }
 }
+@media only screen and (max-width: 1200px) {
+    body {
+    font-size: 2vw;
+    margin:auto;
+    }
