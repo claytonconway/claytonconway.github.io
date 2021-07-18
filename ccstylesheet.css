@@ -1,43 +1,75 @@
 .item1 { grid-area: header; }
 .item2 { grid-area: menu; }
 .item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
+.item4 { grid-area: footer; }
 body {
     color: #003049
 }
+.navbar > ul {   
+    display: block;
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+    background-color: #003049;
+  }
+li a:hover {
+    background-color: #D62828;
+  }
+
 .grid-container {
   display: grid;
   margin: auto;
   grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
+    'header'
+    'menu'
+    'main'
+    'footer';
   grid-gap: 10px;
-  max-width: 80%;  
+    
   padding: 10px;
 }
 
 .grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 20px 0;
   font-size: 1vw;
 }
 .grid-item {
     background-color: aliceblue;
     padding: 10px;
     margin-left: 20px;
+    margin-right: 20px;
     font-size: 1vw;
 }
 .item1 {
     margin:auto;
     text-align: center;
 }
-.item2 {
-    margin-left: 20px;
+.item2 > ul {
+    margin:auto;
+    display: block;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #003049;
+  }
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
+  
+li a:hover {
+    background-color: #D62828;
+  }
+
 .item3 {
     display: grid;
+    list-style-type: disc;
 }
 .item4 {
     display: grid;
@@ -47,7 +79,13 @@ body {
 }
 #logo {
     display: grid;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    padding: 10px;
     width: 12em;
+}
+@media only screen and (min-width: 1920px) {
+    body {
+    width:60%;
+    margin:auto;
+    }
 }
