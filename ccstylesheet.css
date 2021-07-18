@@ -3,7 +3,9 @@
 .item3 { grid-area: main; }
 .item4 { grid-area: right; }
 .item5 { grid-area: footer; }
-
+body {
+    color: #003049
+}
 .grid-container {
   display: grid;
   margin: auto;
@@ -48,5 +50,4 @@
     margin-left: auto;
     margin-right: auto;
     width: 12em;
-
 }
