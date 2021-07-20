@@ -91,7 +91,7 @@
 }
 @media only screen and (max-width: 1200px) {
     body {
-        font-size: 2vw;
+        font-size: 3vw;
         margin:auto;
         color: #003049
     }
@@ -121,7 +121,6 @@
     
     .grid-container > div {
       background-color: rgba(255, 255, 255, 0.8);
-      font-size: 1vw;
     }
     .grid-item {
         display: grid;
@@ -129,7 +128,6 @@
         padding: 10px;
         margin-left: 20px;
         margin-right: 20px;
-        font-size: 1vw;
     }
     .item1 {
         margin:auto;
