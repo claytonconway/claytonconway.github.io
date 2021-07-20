@@ -9,13 +9,7 @@
         margin:auto;
         color: #003049
     }
-    .navbar > ul {   
-        display: block;
-        list-style-type: none;
-        margin: auto;
-        overflow: hidden;
-        background-color: #003049;
-      }
+
     li a:hover {
         background-color: #D62828;
       }
@@ -55,6 +49,7 @@
         list-style-type: none;
         overflow: hidden;
         background-color: #003049;
+        padding-inline-start: 0px;
       }
     li {
         float: left;
@@ -95,13 +90,7 @@
         margin:auto;
         color: #003049
     }
-    .navbar > ul {   
-        display: block;
-        list-style-type: none;
-        margin: auto;
-        overflow: hidden;
-        background-color: #003049;
-      }
+
     li a:hover {
         background-color: #D62828;
       }
@@ -139,6 +128,7 @@
         list-style-type: none;
         overflow: hidden;
         background-color: #003049;
+        padding-inline-start: 0px;
       }
     li {
         float: left;
